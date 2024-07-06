@@ -1,9 +1,37 @@
-//Mac/Home/Desktop/CPUMAMADS/MY_ADD.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_ADD.v
+//Mac/Home/Desktop/CPUMAMADS/MY_XNOR.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_XNOR.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MY_XNOR
+
+Top level modules:
+	MY_XNOR
+
+} {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MY_ASHL
+
+Top level modules:
+	MY_ASHL
+
+} {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MY_COMP2S
+
+Top level modules:
+	MY_COMP2S
+
+} {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_ADD.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_ADD.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module MY_ADD
 
 Top level modules:
 	MY_ADD
+
+} {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_DIV2.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_DIV2.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MY_DIV2
+
+Top level modules:
+	MY_DIV2
 
 } {} {}} //Mac/Home/Desktop/CPUMAMADS/ALU.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/ALU.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020

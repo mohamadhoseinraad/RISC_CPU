@@ -1,7 +1,8 @@
 module ALU(clk, op1,op2,sel , out, co);
 
 	input clk;
-	input[7:0] op1,op2;
+	input[7:0] op1;
+	input[7:0] op2;
 	input[2:0] sel;
 
 	output[7:0] out;
@@ -25,7 +26,7 @@ module ALU(clk, op1,op2,sel , out, co);
     	// instance modules 
 	
     
-    	MY_ADD add_Module(op1,op2,1'b0,add,addo);
+    	MY_ADD add_Module(.op1(op1),.op2(op2),.out(add),.cout(addo));
 
 	MY_ASHL ashl_Module(op1,op2,ashl,ashlo);
 
