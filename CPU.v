@@ -19,7 +19,7 @@ module CPU (clk, clr, read, write, address, memoryIn, memoryOut);
 
     wire [7:0] t,d;
 
-    wire [2:0] busSEL , aluOpcode, sc;
+    wire [2:0] busSEL , aluOPCODE, sc;
     wire clrSC;
 
     //busSel options
@@ -75,7 +75,35 @@ module CPU (clk, clr, read, write, address, memoryIn, memoryOut);
     assign incAC = 0;
     assign clrAC = 0;
 
-    
+    //read and write pins
+    assign read = (d[0]&t[4]) | (d[1]&t[4]) |  (d[2]&t[4]) | (d[3]&t[4]) |  (d[4]&t[4]) | (d[6]&t[4]) | (t[3]&i) | t[1];
+    assign write = (d[5]&t[4]);
 
+
+    //When Register will be in Bus
+    assign busIR = t[2];
+    assign busDR = 0;
+    assign busPC = t[0];
+    assign busAR = 0;
+    assign busAC = d[5]&t[4];
+    //whenever memory unit enters the bus, read pin will be set to 1
+
+    MY_ENC83 encoder_busSEL({1'b0,busAR,busPC,busDR,busAC,busIR,1'b0,read}, busSEL);
+    MY_ENC83 encoder_aluOPCODE({opADD,opASHL,opXNOR,opDIV2,opLOAD,opSTORE,opCOMP2S}, aluOPCODE);
+
+    MY_BUS busRoad(8'b0, {4'b0,ar},{4'b0,pc},dr,ac,ir,8'b0,memoryOut , busSEL, bus);
+
+    ALU aluUnit(clk,ac,dr,aluOPCODE,ac, cout);
+
+    MY_DEC38 decoder_instruction(ir[6:4],d);
+    MY_DEC38 decoder_sc(sc,t);
+
+    MY_REGA PC(clk,incPC,loadPC,clrPC,bus[3:0],pc);
+    MY_REGA AR(clk,incAR,loadAR,clrAR,bus[3:0],ar);
+
+    MY_REGD DR(clk,incDR,loadDR,clrDR,bus[3:0],dr);
+    MY_REGD AC(clk,incAC,loadAC,clrAC,bus[3:0],ac);
+    MY_REGD IR(clk,incIR,loadIR,clrIR,bus[3:0],ir);
+    
 
 endmodule
