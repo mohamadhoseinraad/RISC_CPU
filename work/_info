@@ -82,25 +82,25 @@ R4
 R5
 n@m@y_@a@s@h@l
 vMY_DIV2
-!s110 1720261248
+!s110 1720261385
 !i10b 1
-!s100 LQ`FDXY5a<SV;BMS6iNBF3
+!s100 bmJ<@G_EXg3BFUc^5^WDD3
 R0
-IUVzhASmNlb=2bRYOJWjT93
+IzNnOB7ebGdga^Z4:?OLzJ2
 R1
-w1720261243
-8//Mac/Home/Desktop/CPUMAMADS/MY_DIV2.v
-F//Mac/Home/Desktop/CPUMAMADS/MY_DIV2.v
-!i122 5
-R8
+w1720261362
+8//Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v
+F//Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v
+!i122 6
+Z11 L0 1 7
 R2
 R3
 r1
 !s85 0
 31
-!s108 1720261248.000000
-!s107 //Mac/Home/Desktop/CPUMAMADS/MY_DIV2.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_DIV2.v|
+!s108 1720261385.000000
+!s107 //Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v|
 !i113 0
 R4
 R5
@@ -116,7 +116,7 @@ w1720260545
 8//Mac/Home/Desktop/CPUMAMADS/MY_XNOR.v
 F//Mac/Home/Desktop/CPUMAMADS/MY_XNOR.v
 !i122 4
-L0 1 7
+R11
 R2
 R3
 r1
