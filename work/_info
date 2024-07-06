@@ -51,8 +51,8 @@ r1
 !s85 0
 31
 !s108 1720260055.000000
-!s107 //Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v|
-Z9 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v|
+Z9 !s107 //Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v|
 !i113 0
 R4
 R5
@@ -75,9 +75,33 @@ r1
 !s85 0
 31
 !s108 1720260113.000000
-Z10 !s107 //Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v|
 R9
+R10
 !i113 0
 R4
 R5
 n@m@y_@a@s@h@l
+vMY_XNOR
+!s110 1720260550
+!i10b 1
+!s100 nR26H^XV<@F9GE7i:9g]n3
+R0
+II2e]X?NbiK<n2ZHN_BQH`3
+R1
+w1720260545
+8//Mac/Home/Desktop/CPUMAMADS/MY_XNOR.v
+F//Mac/Home/Desktop/CPUMAMADS/MY_XNOR.v
+!i122 4
+L0 1 7
+R2
+R3
+r1
+!s85 0
+31
+!s108 1720260550.000000
+!s107 //Mac/Home/Desktop/CPUMAMADS/MY_XNOR.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_XNOR.v|
+!i113 0
+R4
+R5
+n@m@y_@x@n@o@r
