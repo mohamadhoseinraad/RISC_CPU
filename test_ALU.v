@@ -32,7 +32,7 @@ module tb_ALU;
         op1 = 8'b10000001; op2 = 8'b10000010; sel = 3'b000;
 
         #10;
-        // ASHL test cout:0 out:4 
+        // ASHL test cout:0 out:2 
         op1 = 8'b00000001; op2 = 8'b00000010; sel = 3'b001;
 
         #10;

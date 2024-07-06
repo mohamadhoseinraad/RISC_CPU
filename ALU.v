@@ -28,7 +28,7 @@ module ALU(clk, op1,op2,sel , out, co);
     
     	MY_ADD add_Module(.op1(op1),.op2(op2),.out(add),.cout(addo));
 
-	MY_ASHL ashl_Module(op1,op2,ashl,ashlo);
+	MY_ASHL ashl_Module(op1,ashl,ashlo);
 
 	MY_XNOR xnor_Module(op1,op2,xnr);
 
