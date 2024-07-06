@@ -41,10 +41,10 @@ R0
 I3G8?Hc:`4GcZon43c:0>90
 R1
 w1720260009
-8//Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v
-F//Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v
+Z6 8//Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v
+Z7 F//Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v
 !i122 2
-L0 1 9
+Z8 L0 1 9
 R2
 R3
 r1
@@ -52,8 +52,32 @@ r1
 31
 !s108 1720260055.000000
 !s107 //Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v|
 !i113 0
 R4
 R5
 n@m@y_@a@d@d
+vMY_ASHL
+!s110 1720260113
+!i10b 1
+!s100 G<2UDimLdcWGWK244z?_:3
+R0
+IoIO87cdN_zJ5c6@Y]mYDU0
+R1
+w1720260102
+R6
+R7
+!i122 3
+R8
+R2
+R3
+r1
+!s85 0
+31
+!s108 1720260113.000000
+Z10 !s107 //Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v|
+R9
+!i113 0
+R4
+R5
+n@m@y_@a@s@h@l
