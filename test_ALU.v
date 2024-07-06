@@ -63,7 +63,6 @@ module tb_ALU;
         //ROUND test cout:0 out:16
         op1 = 8'b00001010; op2 = 8'b00000010; sel = 3'b111;
 
-        $finish;
     end
 
 endmodule
