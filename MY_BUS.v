@@ -5,7 +5,7 @@ module MY_BUS (in0, in1, in2, in3, in4, in5, in6, in7, sel, out);
 
     
     always @(sel, in0, in1, in2, in3, in4, in5, in6, in7) begin
-        case(s)
+        case(sel)
             3'b000: out = in0;
             3'b001: out = in1;
             3'b010: out = in2;

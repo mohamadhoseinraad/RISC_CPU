@@ -89,7 +89,7 @@ module CPU (clk, clr, read, write, address, memoryIn, memoryOut);
     //whenever memory unit enters the bus, read pin will be set to 1
 
     MY_ENC83 encoder_busSEL({1'b0,busAR,busPC,busDR,busAC,busIR,1'b0,read}, busSEL);
-    MY_ENC83 encoder_aluOPCODE({opADD,opASHL,opXNOR,opDIV2,opLOAD,opSTORE,opCOMP2S}, aluOPCODE);
+    MY_ENC83 encoder_aluOPCODE({opADD,opASHL,opXNOR,opDIV2,opLOAD,opSTORE,opCOMP2S,opROUND}, aluOPCODE);
 
     MY_BUS busRoad(8'b0, {4'b0,ar},{4'b0,pc},dr,ac,ir,8'b0,memoryOut , busSEL, bus);
 
@@ -101,9 +101,9 @@ module CPU (clk, clr, read, write, address, memoryIn, memoryOut);
     MY_REGA PC(clk,incPC,loadPC,clrPC,bus[3:0],pc);
     MY_REGA AR(clk,incAR,loadAR,clrAR,bus[3:0],ar);
 
-    MY_REGD DR(clk,incDR,loadDR,clrDR,bus[3:0],dr);
-    MY_REGD AC(clk,incAC,loadAC,clrAC,bus[3:0],ac);
-    MY_REGD IR(clk,incIR,loadIR,clrIR,bus[3:0],ir);
+    MY_REGD DR(clk,incDR,loadDR,clrDR,bus[7:0],dr);
+    MY_REGD AC(clk,incAC,loadAC,clrAC,bus[7:0],ac);
+    MY_REGD IR(clk,incIR,loadIR,clrIR,bus[7:0],ir);
     
 
 endmodule
