@@ -1,16 +1,23 @@
-//Mac/Home/Desktop/CPUMAMADS/MY_REGA.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_REGA.v
+//Mac/Home/Desktop/CPUMAMADS/MY_DEC38.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_DEC38.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MY_DEC38
+
+Top level modules:
+	MY_DEC38
+
+} {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_REGA.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_REGA.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module MY_REGA
 
 Top level modules:
 	MY_REGA
 
-} {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_DEC38.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_DEC38.v
+} {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_MEMORY.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_MEMORY.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module MY_DEC38
+-- Compiling module MY_MEMORY
 
 Top level modules:
-	MY_DEC38
+	MY_MEMORY
 
 } {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_ADD.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_ADD.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -25,6 +32,13 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 
 Top level modules:
 	MY_REGD
+
+} {} {}} //Mac/Home/Desktop/CPUMAMADS/CPU.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/CPU.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module CPU
+
+Top level modules:
+	CPU
 
 } {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_SCOUNTER.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_SCOUNTER.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -68,6 +82,20 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	MY_ENC83
 
+} {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_BUS.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_BUS.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module MY_BUS
+
+Top level modules:
+	MY_BUS
+
+} {} {}} //Mac/Home/Desktop/CPUMAMADS/test_CPU.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/test_CPU.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb_CPU
+
+Top level modules:
+	tb_CPU
+
 } {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module MY_COMP2S
@@ -75,7 +103,7 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	MY_COMP2S
 
-} {} {}} //Mac/Home/Desktop/CPUMAMADS/ALU.v {1 {vlog -work work -vopt -stats=none {\\Mac\Home\Desktop\CPUMAMADS\ALU.v}
+} {} {}} //Mac/Home/Desktop/CPUMAMADS/ALU.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/ALU.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module ALU
 
