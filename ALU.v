@@ -44,8 +44,8 @@ module ALU(clk, op1,op2,sel , out, co);
         	(sel == 3'b001) ? ashl :
 			(sel == 3'b010) ? xnr :
         	(sel == 3'b011) ? div : // for div by 2
-			(sel == 3'b100) ? op1 :
-			(sel == 3'b101) ? op1 :
+			//(sel == 3'b100) ? op1 :
+			//(sel == 3'b101) ? op1 :
         	(sel == 3'b110) ? comp2s : 
         	(sel == 3'b111) ? op1 : // for round func
 			out;
