@@ -23,7 +23,7 @@ module CPU (clk, clr, read, write, address, memoryIn, memoryOut);
     wire clrSC;
 
     //busSel options
-    wire busIR, busDR, busPC, busAR, busAC;
+    wire busIR, busDR, busPC, busAR, busAC, busMem;
     //aluOpCode options
     wire opADD, opASHL, opXNOR, opDIV2, opLOAD, opSTORE, opCOMP2S,opROUND;
 
@@ -88,12 +88,17 @@ module CPU (clk, clr, read, write, address, memoryIn, memoryOut);
     assign busAC = d[5]&t[4];
     //whenever memory unit enters the bus, read pin will be set to 1
 
-    MY_ENC83 encoder_busSEL({1'b0,busAR,busPC,busDR,busAC,busIR,1'b0,read}, busSEL);
-    MY_ENC83 encoder_aluOPCODE({opADD,opASHL,opXNOR,opDIV2,opLOAD,opSTORE,opCOMP2S,opROUND}, aluOPCODE);
-
+    MY_ENC83 encoder_busSEL({read,1'b0,busIR,busAC,busDR,busPC,busAR,1'b0}, busSEL);
+    
+    
+    MY_ENC83 encoder_aluOPCODE({opROUND,opCOMP2S,opSTORE,opLOAD,opDIV2,opXNOR,opASHL,opADD}, aluOPCODE);
+    
+    
     MY_BUS busRoad(8'b0, {4'b0,ar},{4'b0,pc},dr,ac,ir,8'b0,memoryOut , busSEL, bus);
 
-    ALU aluUnit(clk,ac,dr,aluOPCODE,ac, cout);
+    ALU aluUnit(clk,ac,dr,aluOPCODE,alu, cout);
+
+    MY_SCOUNTER SCounter(clk,1'b1,clr,sc);
 
     MY_DEC38 decoder_instruction(ir[6:4],d);
     MY_DEC38 decoder_sc(sc,t);
