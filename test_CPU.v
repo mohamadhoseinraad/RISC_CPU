@@ -31,7 +31,7 @@ module CPU_tb;
     initial
     begin
         
-        $readmemb("memoryLdCompare.list", memory);
+        $readmemb("memoryLoadAdd.list", memory);
         
         $dumpvars(0, CPU_tb);
         clr = 1;

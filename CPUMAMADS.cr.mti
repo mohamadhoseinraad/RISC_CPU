@@ -12,13 +12,6 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	MY_REGA
 
-} {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_MEMORY.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_MEMORY.v
-Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module MY_MEMORY
-
-Top level modules:
-	MY_MEMORY
-
 } {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_ADD.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_ADD.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module MY_ADD
@@ -46,13 +39,6 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 
 Top level modules:
 	MY_SCOUNTER
-
-} {} {}} //Mac/Home/Desktop/CPUMAMADS/test_AYECP.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/test_AYECP.v
-Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module CPU_tb
-
-Top level modules:
-	CPU_tb
 
 } {} {}} //Mac/Home/Desktop/CPUMAMADS/test_ALU.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/test_ALU.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -91,10 +77,10 @@ Top level modules:
 
 } {} {}} //Mac/Home/Desktop/CPUMAMADS/test_CPU.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/test_CPU.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module tb_CPU
+-- Compiling module CPU_tb
 
 Top level modules:
-	tb_CPU
+	CPU_tb
 
 } {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_BUS.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_BUS.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
@@ -102,13 +88,6 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 
 Top level modules:
 	MY_BUS
-
-} {} {}} //Mac/Home/Desktop/CPUMAMADS/test_MEMORY.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/test_MEMORY.v
-Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module MY_MEMORY_TB
-
-Top level modules:
-	MY_MEMORY_TB
 
 } {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
