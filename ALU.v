@@ -42,24 +42,18 @@ module ALU(clk, op1,op2,sel , out, co);
     	assign out = 
         	(sel == 3'b000) ? add :
         	(sel == 3'b001) ? ashl :
-		(sel == 3'b010) ? xnr :
+			(sel == 3'b010) ? xnr :
         	(sel == 3'b011) ? div : // for div by 2
-		(sel == 3'b100) ? op1 :
-		(sel == 3'b101) ? op1 :
+			(sel == 3'b100) ? op1 :
+			(sel == 3'b101) ? op1 :
         	(sel == 3'b110) ? comp2s : 
         	(sel == 3'b111) ? op1 : // for round func
-        
-		
-        	8'bx;
+			out;
+
     	assign co = 
         	(sel == 3'b000) ? addo :
         	(sel == 3'b001) ? ashlo :
-		(sel == 3'b010) ? 1'b0 :
         	(sel == 3'b011) ? divo :
-		(sel == 3'b100) ? 1'b0 :
-		(sel == 3'b101) ? 1'b0 :
-        	(sel == 3'b110) ? 1'b0 :
-        	(sel == 3'b111) ? 1'b0 : 
-        	1'bx;
+			co;
 
 endmodule

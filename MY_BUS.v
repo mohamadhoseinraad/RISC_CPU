@@ -14,7 +14,7 @@ module MY_BUS (in0, in1, in2, in3, in4, in5, in6, in7, sel, out);
             3'b101: out = in5;
             3'b110: out = in6;
             3'b111: out = in7;
-            default: out = 8'bx;
+            default: out = out;
         endcase
     end
 

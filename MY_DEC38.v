@@ -12,7 +12,7 @@ module MY_DEC38 (in,out);
             3'b101: out = 8'b00100000;
             3'b110: out = 8'b01000000;
             3'b111: out = 8'b10000000;
-            default: out = 8'bx;
+            default: out = out;
         endcase
     end
 endmodule
