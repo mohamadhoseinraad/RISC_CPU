@@ -6,7 +6,7 @@ module CPU (clk, clr, read, write, address, memoryIn, memoryOut);
     output read,write;
 
 
-    wire [7:0] bus;         //Bus in registers
+    wire [7:0] bus , alu;         //Bus in registers
     wire [7:0] dr,ac,ir;    // out of these registers
     wire [3:0] ar, pc; 
     wire cout;
