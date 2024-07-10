@@ -37,7 +37,7 @@ module CPU (clk, clr, read, write, address, memoryIn, memoryOut);
 
     //SC assign clrSC is 0 if clr is 1 or end of commands                                           //OP ROunddddd !!!!!
 
-    assign clrSC = clr | (d[0]&t[5]) | (d[1]&t[5]) |  (d[2]&t[5]) | (d[3]&t[5]) |  (d[4]&t[5]) | (d[5]&t[4]) | (d[6]&t[5]) |d[7]&t[5];
+    assign clrSC = clr | (d[0]&t[5]) | (d[1]&t[5]) |  (d[2]&t[5]) | (d[3]&t[5]) |  (d[4]&t[5]) | (d[5]&t[4]) | (d[6]&t[5]) |d[7]&t[7];
 
     //when op for alu is active                                                                    //OP ROundddd !!!
 
@@ -72,13 +72,13 @@ module CPU (clk, clr, read, write, address, memoryIn, memoryOut);
     assign clrAR = 0;
 
     //AC pins :
-    assign loadAC = (d[0]&t[5]) | (d[1]&t[5]) |  (d[2]&t[5]) | (d[3]&t[5]) |  (d[4]&t[5]) | (d[6]&t[5]);
+    assign loadAC = (d[0]&t[5]) | (d[1]&t[5]) |  (d[2]&t[5]) | (d[3]&t[5]) |  (d[4]&t[5]) | (d[6]&t[5]) | (d[7]&t[5]);
     assign incAC = 0;
     assign clrAC = 0;
 
     //read and write pins
     assign read = (d[0]&t[4]) | (d[1]&t[4]) |  (d[2]&t[4]) | (d[3]&t[4]) |  (d[4]&t[4]) | (d[6]&t[4]) | (t[3]&i) | t[1] | (d[7]&t[4]);
-    assign write = (d[5]&t[4]);
+    assign write = (d[5]&t[4]) | (d[7]&t[6]);
 
 
     //When Register will be in Bus
@@ -86,7 +86,7 @@ module CPU (clk, clr, read, write, address, memoryIn, memoryOut);
     assign busDR = 0;
     assign busPC = t[0];
     assign busAR = 0;
-    assign busAC = d[5]&t[4];
+    assign busAC = (d[5]&t[4]) | (d[7]&t[6]);
     assign aluOPCODE = ir[6:4];
     //whenever memory unit enters the bus, read pin will be set to 1
 

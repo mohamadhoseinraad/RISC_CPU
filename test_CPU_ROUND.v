@@ -32,7 +32,7 @@ module CPU_tb_round;
     begin
         
          memory[0] = 8'b01110111;
-         memory[1] = 8'b01010100;
+         memory[1] = 8'b00000000;
          memory[2] = 8'b01010100;
          memory[3] = 8'b00000000;
          memory[4] = 8'b00000000;
