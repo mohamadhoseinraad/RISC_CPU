@@ -1,4 +1,4 @@
-module CPU_tb;
+module CPU_tb_ashl;
 
     // Memory
     reg [7:0] memory [0:15];
@@ -40,7 +40,7 @@ module CPU_tb;
          memory[7] = 8'b00000011;
          memory[6] = 8'b00000010;
         
-        $dumpvars(0, CPU_tb);
+        $dumpvars(0, CPU_tb_ashl);
         clr = 1;
         #10;  
         clr = 0;

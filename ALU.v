@@ -20,6 +20,7 @@ module ALU(clk, op1,op2,sel , out, co);
 	wire divo;
 
     	wire[7:0] comp2s;
+		wire[7:0] round;
 	
 	
 
@@ -36,6 +37,8 @@ module ALU(clk, op1,op2,sel , out, co);
 	
 	MY_COMP2S comp2s_Module(op2,comp2s);
 
+	RoundUpPowerOf2 roud_Module(op2, round);
+
     	
 
 
@@ -47,7 +50,7 @@ module ALU(clk, op1,op2,sel , out, co);
 			(sel == 3'b100) ? op2 :
 			(sel == 3'b101) ? op1 :
         	(sel == 3'b110) ? comp2s : 
-        	(sel == 3'b111) ? op1 : // for round func
+        	(sel == 3'b111) ? round : // for round func
 			out;
 
     	assign co = 

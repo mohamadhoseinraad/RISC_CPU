@@ -9,43 +9,53 @@ z2
 !i10f 100
 cModel Technology
 Z0 d//Mac/Home/Desktop/FinalProject
-T_opt1
-!s110 1720519902
-V`XHzJJQb<[]g<8JIHYUbb3
-04 12 4 work MY_MEMORY_TB fast 0
-=1-001c429e2dec-668d0cde-31-2570
+T_opt
+!s110 1720640736
+V?dCaQ7mAlMo=j4?KDZnfJ0
+04 12 4 work CPU_tb_round fast 0
+=1-001c429e2dec-668ee4df-29a-1698
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
-n@_opt1
+n@_opt
 Z3 OL;O;2020.4;71
+T_opt1
+!s110 1720639674
+Vk6eF_k@K]FU>H?8c:cU=W1
+04 13 4 work CPU_tb_comp2s fast 0
+=1-001c429e2dec-668ee0ba-23b-20ec
+R1
+R2
+n@_opt1
+R3
 R0
 T_opt2
-!s110 1720639017
-V<XOnREc`6E8iV^[`gKzRU3
-04 6 4 work CPU_tb fast 0
-=1-001c429e2dec-668ede28-273-157c
+!s110 1720640117
+V90X:o?]0Bk<oKckQ2K52T2
+04 11 4 work tb_MY_ROUND fast 0
+=1-001c429e2dec-668ee275-12-17f0
 R1
 R2
 n@_opt2
 R3
+R0
 vALU
-Z4 !s110 1720638999
+Z4 !s110 1720640718
 !i10b 1
-!s100 _e:BVa37IoXJ@HLCT7Sll0
+!s100 YkSd31aoHocW7kliO>SZb2
 Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IeD9=4MQB``Vgf9UNF;nF51
+Ib64eRD1;zhLUY[=>I9I7O3
 Z6 d//Mac/Home/Desktop/CPUMAMADS
-w1720638977
+w1720640273
 8//Mac/Home/Desktop/CPUMAMADS/ALU.v
 F//Mac/Home/Desktop/CPUMAMADS/ALU.v
-!i122 929
-L0 1 59
+!i122 1124
+L0 1 62
 Z7 VDg1SIo80bB@j0V0VzS_@n1
 Z8 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z9 !s108 1720638999.000000
+Z9 !s108 1720640718.000000
 !s107 //Mac/Home/Desktop/CPUMAMADS/ALU.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/ALU.v|
 !i113 0
@@ -53,23 +63,23 @@ Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 n@a@l@u
 vCPU
-Z11 !s110 1720639001
+Z11 !s110 1720640719
 !i10b 1
-!s100 c5@YlB<cUQSGcUL1iBkmE2
+!s100 ZJ2?z6:XXGgV8X7UBzNMH2
 R5
-IJ?HQ2<TVjYZUz<UXJo6=A1
+IldXNdUHlS5c=Ao1Z]n_J60
 R6
-w1720637904
+w1720640699
 8//Mac/Home/Desktop/CPUMAMADS/CPU.v
 F//Mac/Home/Desktop/CPUMAMADS/CPU.v
-!i122 942
-L0 1 115
+!i122 1137
+L0 1 116
 R7
 R8
 r1
 !s85 0
 31
-Z12 !s108 1720639001.000000
+Z12 !s108 1720640719.000000
 !s107 //Mac/Home/Desktop/CPUMAMADS/CPU.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/CPU.v|
 !i113 0
@@ -77,29 +87,149 @@ R10
 R2
 n@c@p@u
 vCPU_tb
-R11
+!s110 1720639001
 !i10b 1
 !s100 `z_L^>S3[9K2VYbV85c@V2
 R5
 I`Sj99>SJJ`fC1_]mfY?Z41
 R6
 w1720638718
-8//Mac/Home/Desktop/CPUMAMADS/test_CPU_ASHL.v
-F//Mac/Home/Desktop/CPUMAMADS/test_CPU_ASHL.v
+Z13 8//Mac/Home/Desktop/CPUMAMADS/test_CPU_ASHL.v
+Z14 F//Mac/Home/Desktop/CPUMAMADS/test_CPU_ASHL.v
 !i122 945
-L0 1 54
+Z15 L0 1 54
+R7
+R8
+r1
+!s85 0
+31
+!s108 1720639001.000000
+Z16 !s107 //Mac/Home/Desktop/CPUMAMADS/test_CPU_ASHL.v|
+Z17 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_CPU_ASHL.v|
+!i113 0
+R10
+R2
+n@c@p@u_tb
+vCPU_tb_add
+R11
+!i10b 1
+!s100 RB3lg`VG2Eh`diBDQL?NM0
+R5
+I@7XGY2QkRKO2J][BgHgc^1
+R6
+w1720639431
+8//Mac/Home/Desktop/CPUMAMADS/test_CPU_ADD.v
+F//Mac/Home/Desktop/CPUMAMADS/test_CPU_ADD.v
+!i122 1139
+R15
 R7
 R8
 r1
 !s85 0
 31
 R12
-!s107 //Mac/Home/Desktop/CPUMAMADS/test_CPU_ASHL.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_CPU_ASHL.v|
+!s107 //Mac/Home/Desktop/CPUMAMADS/test_CPU_ADD.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_CPU_ADD.v|
 !i113 0
 R10
 R2
-n@c@p@u_tb
+n@c@p@u_tb_add
+vCPU_tb_ashl
+R11
+!i10b 1
+!s100 6VF9PdbT]0>e^SnR9bD`N3
+R5
+I=LhQmBj_nO>1PFek=zkm:0
+R6
+w1720639422
+R13
+R14
+!i122 1140
+R15
+R7
+R8
+r1
+!s85 0
+31
+R12
+R16
+R17
+!i113 0
+R10
+R2
+n@c@p@u_tb_ashl
+vCPU_tb_comp2s
+Z18 !s110 1720640720
+!i10b 1
+!s100 =DGIB3e<<L0<0QAg??^<m2
+R5
+I@zmA6ISPE:H4=]b`2B?e=1
+R6
+w1720639610
+8//Mac/Home/Desktop/CPUMAMADS/test_CPU_COMP2S.v
+F//Mac/Home/Desktop/CPUMAMADS/test_CPU_COMP2S.v
+!i122 1142
+R15
+R7
+R8
+r1
+!s85 0
+31
+Z19 !s108 1720640720.000000
+!s107 //Mac/Home/Desktop/CPUMAMADS/test_CPU_COMP2S.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_CPU_COMP2S.v|
+!i113 0
+R10
+R2
+n@c@p@u_tb_comp2s
+vCPU_tb_div2
+R18
+!i10b 1
+!s100 KjX8K>[VQnO][UZnFb`iO3
+R5
+ITk2i6;E9V?T8@iGNoHz;k0
+R6
+w1720639413
+8//Mac/Home/Desktop/CPUMAMADS/test_CPU_DIV2.v
+F//Mac/Home/Desktop/CPUMAMADS/test_CPU_DIV2.v
+!i122 1141
+R15
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 //Mac/Home/Desktop/CPUMAMADS/test_CPU_DIV2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_CPU_DIV2.v|
+!i113 0
+R10
+R2
+n@c@p@u_tb_div2
+vCPU_tb_round
+R18
+!i10b 1
+!s100 aJHGW?c7;GgAUk]R4P:W70
+R5
+IN28kioR@i7mfJZK^WIh0D0
+R6
+w1720640345
+8//Mac/Home/Desktop/CPUMAMADS/test_CPU_ROUND.v
+F//Mac/Home/Desktop/CPUMAMADS/test_CPU_ROUND.v
+!i122 1149
+R15
+R7
+R8
+r1
+!s85 0
+31
+R19
+!s107 //Mac/Home/Desktop/CPUMAMADS/test_CPU_ROUND.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_CPU_ROUND.v|
+!i113 0
+R10
+R2
+n@c@p@u_tb_round
 vMY_ADD
 R4
 !i10b 1
@@ -110,7 +240,7 @@ R6
 w1720263230
 8//Mac/Home/Desktop/CPUMAMADS/MY_ADD.v
 F//Mac/Home/Desktop/CPUMAMADS/MY_ADD.v
-!i122 930
+!i122 1125
 L0 1 8
 R7
 R8
@@ -134,8 +264,8 @@ R6
 w1720274398
 8//Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v
 F//Mac/Home/Desktop/CPUMAMADS/MY_ASHL.v
-!i122 931
-Z13 L0 1 9
+!i122 1126
+Z20 L0 1 9
 R7
 R8
 r1
@@ -155,10 +285,10 @@ R11
 R5
 Idk0b]V2iEV1CPD;6hziOS3
 R6
-Z14 w1720527871
+Z21 w1720527871
 8//Mac/Home/Desktop/CPUMAMADS/MY_BUS.v
 F//Mac/Home/Desktop/CPUMAMADS/MY_BUS.v
-!i122 943
+!i122 1138
 L0 1 21
 R7
 R8
@@ -173,7 +303,7 @@ R10
 R2
 n@m@y_@b@u@s
 vMY_COMP2S
-Z15 !s110 1720639000
+R4
 !i10b 1
 !s100 NSkcWG5M=209AMD`ZCYBK3
 R5
@@ -182,14 +312,14 @@ R6
 w1720262009
 8//Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v
 F//Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v
-!i122 934
-Z16 L0 1 7
+!i122 1129
+Z22 L0 1 7
 R7
 R8
 r1
 !s85 0
 31
-Z17 !s108 1720639000.000000
+R9
 !s107 //Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_COMP2S.v|
 !i113 0
@@ -197,23 +327,23 @@ R10
 R2
 n@m@y_@c@o@m@p2@s
 vMY_DEC38
-R15
+R11
 !i10b 1
 !s100 N1AIUWIR_IHh=mD^XJ9eK1
 R5
 I1L9UY4Yb3jjdW88iXWDDC2
 R6
-R14
+R21
 8//Mac/Home/Desktop/CPUMAMADS/MY_DEC38.v
 F//Mac/Home/Desktop/CPUMAMADS/MY_DEC38.v
-!i122 939
-Z18 L0 1 18
+!i122 1134
+Z23 L0 1 18
 R7
 R8
 r1
 !s85 0
 31
-R17
+R12
 !s107 //Mac/Home/Desktop/CPUMAMADS/MY_DEC38.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_DEC38.v|
 !i113 0
@@ -221,7 +351,7 @@ R10
 R2
 n@m@y_@d@e@c38
 vMY_DIV2
-R15
+R4
 !i10b 1
 !s100 LQ`FDXY5a<SV;BMS6iNBF3
 R5
@@ -230,14 +360,14 @@ R6
 w1720261243
 8//Mac/Home/Desktop/CPUMAMADS/MY_DIV2.v
 F//Mac/Home/Desktop/CPUMAMADS/MY_DIV2.v
-!i122 933
-R13
+!i122 1128
+R20
 R7
 R8
 r1
 !s85 0
 31
-R17
+R9
 !s107 //Mac/Home/Desktop/CPUMAMADS/MY_DIV2.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_DIV2.v|
 !i113 0
@@ -245,7 +375,7 @@ R10
 R2
 n@m@y_@d@i@v2
 vMY_ENC83
-R15
+R11
 !i10b 1
 !s100 XBZ^1o;P3YT4Fn7z2?54W1
 R5
@@ -254,14 +384,14 @@ R6
 w1720273293
 8//Mac/Home/Desktop/CPUMAMADS/MY_ENC83.v
 F//Mac/Home/Desktop/CPUMAMADS/MY_ENC83.v
-!i122 940
+!i122 1135
 L0 1 12
 R7
 R8
 r1
 !s85 0
 31
-R17
+R12
 !s107 //Mac/Home/Desktop/CPUMAMADS/MY_ENC83.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_ENC83.v|
 !i113 0
@@ -269,7 +399,7 @@ R10
 R2
 n@m@y_@e@n@c83
 vMY_MEMORY
-Z19 !s110 1720523850
+Z24 !s110 1720523850
 !i10b 1
 !s100 <SDMJGkS3>b[aGclbCe4e2
 R5
@@ -285,7 +415,7 @@ R8
 r1
 !s85 0
 31
-Z20 !s108 1720523850.000000
+Z25 !s108 1720523850.000000
 !s107 //Mac/Home/Desktop/CPUMAMADS/MY_MEMORY.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_MEMORY.v|
 !i113 0
@@ -293,7 +423,7 @@ R10
 R2
 n@m@y_@m@e@m@o@r@y
 vMY_MEMORY_TB
-R19
+R24
 !i10b 1
 !s100 I35o[2e_^3Kdfj;FH;G813
 R5
@@ -309,7 +439,7 @@ R8
 r1
 !s85 0
 31
-R20
+R25
 !s107 //Mac/Home/Desktop/CPUMAMADS/test_MEMORY.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_MEMORY.v|
 !i113 0
@@ -317,7 +447,7 @@ R10
 R2
 n@m@y_@m@e@m@o@r@y_@t@b
 vMY_REGA
-R15
+R4
 !i10b 1
 !s100 FH88e_=b8FnaWIBCR:ko_0
 R5
@@ -326,14 +456,14 @@ R6
 w1720271427
 8//Mac/Home/Desktop/CPUMAMADS/MY_REGA.v
 F//Mac/Home/Desktop/CPUMAMADS/MY_REGA.v
-!i122 935
+!i122 1130
 L0 1 17
 R7
 R8
 r1
 !s85 0
 31
-R17
+R9
 !s107 //Mac/Home/Desktop/CPUMAMADS/MY_REGA.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_REGA.v|
 !i113 0
@@ -341,7 +471,7 @@ R10
 R2
 n@m@y_@r@e@g@a
 vMY_REGD
-R15
+R4
 !i10b 1
 !s100 mjjhWATT1@W>HTVn<<1Em3
 R5
@@ -350,14 +480,14 @@ R6
 w1720271459
 8//Mac/Home/Desktop/CPUMAMADS/MY_REGD.v
 F//Mac/Home/Desktop/CPUMAMADS/MY_REGD.v
-!i122 936
-R18
+!i122 1131
+R23
 R7
 R8
 r1
 !s85 0
 31
-R17
+R9
 !s107 //Mac/Home/Desktop/CPUMAMADS/MY_REGD.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_REGD.v|
 !i113 0
@@ -374,14 +504,14 @@ R6
 w1720273473
 8//Mac/Home/Desktop/CPUMAMADS/MY_SCOUNTER.v
 F//Mac/Home/Desktop/CPUMAMADS/MY_SCOUNTER.v
-!i122 941
-R13
+!i122 1136
+R20
 R7
 R8
 r1
 !s85 0
 31
-R17
+R12
 !s107 //Mac/Home/Desktop/CPUMAMADS/MY_SCOUNTER.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_SCOUNTER.v|
 !i113 0
@@ -389,7 +519,7 @@ R10
 R2
 n@m@y_@s@c@o@u@n@t@e@r
 vMY_XNOR
-R15
+R4
 !i10b 1
 !s100 nR26H^XV<@F9GE7i:9g]n3
 R5
@@ -398,8 +528,8 @@ R6
 w1720260545
 8//Mac/Home/Desktop/CPUMAMADS/MY_XNOR.v
 F//Mac/Home/Desktop/CPUMAMADS/MY_XNOR.v
-!i122 932
-R16
+!i122 1127
+R22
 R7
 R8
 r1
@@ -412,8 +542,32 @@ R9
 R10
 R2
 n@m@y_@x@n@o@r
+vRoundUpPowerOf2
+R18
+!i10b 1
+!s100 P09mF@9ZJ_7X9FGOA2GIK2
+R5
+IPdn_?ZLJB9[F=CAciY63I2
+R6
+Z26 w1720639785
+8//Mac/Home/Desktop/CPUMAMADS/MY_ROUND.v
+F//Mac/Home/Desktop/CPUMAMADS/MY_ROUND.v
+!i122 1148
+L0 1 13
+R7
+R8
+r1
+!s85 0
+31
+R19
+!s107 //Mac/Home/Desktop/CPUMAMADS/MY_ROUND.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/MY_ROUND.v|
+!i113 0
+R10
+R2
+n@round@up@power@of2
 vtb_ALU
-R15
+R11
 !i10b 1
 !s100 3[W[NeKIZ^O?EM@N_3VLk0
 R5
@@ -422,14 +576,14 @@ R6
 w1720274502
 8//Mac/Home/Desktop/CPUMAMADS/test_ALU.v
 F//Mac/Home/Desktop/CPUMAMADS/test_ALU.v
-!i122 937
+!i122 1132
 L0 1 68
 R7
 R8
 r1
 !s85 0
 31
-R17
+R9
 !s107 //Mac/Home/Desktop/CPUMAMADS/test_ALU.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_ALU.v|
 !i113 0
@@ -437,7 +591,7 @@ R10
 R2
 ntb_@a@l@u
 vtb_CPU
-R19
+R24
 !i10b 1
 !s100 hRY0GUAl3d=8U8e^HXE?^1
 R5
@@ -453,15 +607,63 @@ R8
 r1
 !s85 0
 31
-R20
+R25
 !s107 //Mac/Home/Desktop/CPUMAMADS/test_CPU.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_CPU.v|
 !i113 0
 R10
 R2
 ntb_@c@p@u
+vtb_MY_ADD
+R18
+!i10b 1
+!s100 aXUB63B5KKEAl]m_iKhhz3
+R5
+IkHQiiDj<`4LLR?>odd3jR2
+R6
+R26
+8//Mac/Home/Desktop/CPUMAMADS/test_MY_ADD.v
+F//Mac/Home/Desktop/CPUMAMADS/test_MY_ADD.v
+!i122 1143
+L0 1 34
+R7
+R8
+r1
+!s85 0
+31
+R19
+!s107 //Mac/Home/Desktop/CPUMAMADS/test_MY_ADD.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_MY_ADD.v|
+!i113 0
+R10
+R2
+ntb_@m@y_@a@d@d
+vtb_MY_ASHL
+R18
+!i10b 1
+!s100 PW0MeZJ=Dk=O9k1=FezJY2
+R5
+Ik^FRDZ<Q5ohegzX:1]_ZC1
+R6
+R26
+8//Mac/Home/Desktop/CPUMAMADS/test_MY_ASHL.v
+F//Mac/Home/Desktop/CPUMAMADS/test_MY_ASHL.v
+!i122 1144
+Z27 L0 1 28
+R7
+R8
+r1
+!s85 0
+31
+R19
+!s107 //Mac/Home/Desktop/CPUMAMADS/test_MY_ASHL.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_MY_ASHL.v|
+!i113 0
+R10
+R2
+ntb_@m@y_@a@s@h@l
 vtb_MY_REGA
-R15
+R11
 !i10b 1
 !s100 1FV7ahQ^U:@c`QXM40igK1
 R5
@@ -470,17 +672,89 @@ R6
 w1720271127
 8//Mac/Home/Desktop/CPUMAMADS/test_REG.v
 F//Mac/Home/Desktop/CPUMAMADS/test_REG.v
-!i122 938
+!i122 1133
 L0 2 45
 R7
 R8
 r1
 !s85 0
 31
-R17
+R12
 !s107 //Mac/Home/Desktop/CPUMAMADS/test_REG.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_REG.v|
 !i113 0
 R10
 R2
 ntb_@m@y_@r@e@g@a
+vtb_MY_ROUND
+R18
+!i10b 1
+!s100 25Am?M`]kP<]S<jmNlQLo1
+R5
+I;zOZj;h@ed`?M@Y03kJGQ2
+R6
+R26
+8//Mac/Home/Desktop/CPUMAMADS/test_MY_ROUND.v
+F//Mac/Home/Desktop/CPUMAMADS/test_MY_ROUND.v
+!i122 1146
+L0 1 37
+R7
+R8
+r1
+!s85 0
+31
+R19
+!s107 //Mac/Home/Desktop/CPUMAMADS/test_MY_ROUND.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_MY_ROUND.v|
+!i113 0
+R10
+R2
+ntb_@m@y_@r@o@u@n@d
+vtb_MY_XNOR
+R18
+!i10b 1
+!s100 BJnd:YFP1mdUBPH?f25003
+R5
+IjZoQi_P5TTGj=L^MBe>3U2
+R6
+R26
+8//Mac/Home/Desktop/CPUMAMADS/test_MY_XNOR.v
+F//Mac/Home/Desktop/CPUMAMADS/test_MY_XNOR.v
+!i122 1147
+L0 1 30
+R7
+R8
+r1
+!s85 0
+31
+R19
+!s107 //Mac/Home/Desktop/CPUMAMADS/test_MY_XNOR.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_MY_XNOR.v|
+!i113 0
+R10
+R2
+ntb_@m@y_@x@n@o@r
+vtest_MY_DIV2
+R18
+!i10b 1
+!s100 UAG5aI4P4cFAijFZaE0g?0
+R5
+IW2[Y@0]:]Mc1UTZ`OI@RY1
+R6
+R26
+8//Mac/Home/Desktop/CPUMAMADS/test_MY_DIV2.v
+F//Mac/Home/Desktop/CPUMAMADS/test_MY_DIV2.v
+!i122 1145
+R27
+R7
+R8
+r1
+!s85 0
+31
+R19
+!s107 //Mac/Home/Desktop/CPUMAMADS/test_MY_DIV2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|//Mac/Home/Desktop/CPUMAMADS/test_MY_DIV2.v|
+!i113 0
+R10
+R2
+ntest_@m@y_@d@i@v2
