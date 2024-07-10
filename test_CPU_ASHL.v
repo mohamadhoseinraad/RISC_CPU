@@ -31,8 +31,8 @@ module CPU_tb;
     initial
     begin
         
-         memory[0] = 8'b01000111;
-         memory[1] = 8'b00000110;
+         memory[0] = 8'b00010111;
+         memory[1] = 8'b01010100;
          memory[2] = 8'b01010100;
          memory[3] = 8'b00000000;
          memory[4] = 8'b00000000;

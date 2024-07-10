@@ -68,6 +68,13 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	tb_MY_REGA
 
+} {} {}} //Mac/Home/Desktop/CPUMAMADS/test_CPU_ASHL.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/test_CPU_ASHL.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module CPU_tb
+
+Top level modules:
+	CPU_tb
+
 } {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_ENC83.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_ENC83.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module MY_ENC83
@@ -75,7 +82,7 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	MY_ENC83
 
-} {} {}} //Mac/Home/Desktop/CPUMAMADS/test_CPU.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/test_CPU.v
+} {} {}} //Mac/Home/Desktop/CPUMAMADS/test_CPU_ADD.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/test_CPU_ADD.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module CPU_tb
 

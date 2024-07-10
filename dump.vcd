@@ -1,5 +1,5 @@
 $date
-	Wed Jul 10 22:36:27 2024
+	Wed Jul 10 22:47:08 2024
 $end
 $version
 	ModelSim Version 2020.4
@@ -353,14 +353,14 @@ $var wire 1 i! cout $end
 $upscope $end
 
 $scope module ashl_Module $end
-$var wire 1 S op1 [7] $end
-$var wire 1 T op1 [6] $end
-$var wire 1 U op1 [5] $end
-$var wire 1 V op1 [4] $end
-$var wire 1 W op1 [3] $end
-$var wire 1 X op1 [2] $end
-$var wire 1 Y op1 [1] $end
-$var wire 1 Z op1 [0] $end
+$var wire 1 K op1 [7] $end
+$var wire 1 L op1 [6] $end
+$var wire 1 M op1 [5] $end
+$var wire 1 N op1 [4] $end
+$var wire 1 O op1 [3] $end
+$var wire 1 P op1 [2] $end
+$var wire 1 Q op1 [1] $end
+$var wire 1 R op1 [0] $end
 $var wire 1 j! out [7] $end
 $var wire 1 k! out [6] $end
 $var wire 1 l! out [5] $end
@@ -400,14 +400,14 @@ $var wire 1 z! out [0] $end
 $upscope $end
 
 $scope module div2_Moudle $end
-$var wire 1 S op1 [7] $end
-$var wire 1 T op1 [6] $end
-$var wire 1 U op1 [5] $end
-$var wire 1 V op1 [4] $end
-$var wire 1 W op1 [3] $end
-$var wire 1 X op1 [2] $end
-$var wire 1 Y op1 [1] $end
-$var wire 1 Z op1 [0] $end
+$var wire 1 K op1 [7] $end
+$var wire 1 L op1 [6] $end
+$var wire 1 M op1 [5] $end
+$var wire 1 N op1 [4] $end
+$var wire 1 O op1 [3] $end
+$var wire 1 P op1 [2] $end
+$var wire 1 Q op1 [1] $end
+$var wire 1 R op1 [0] $end
 $var wire 1 {! out [7] $end
 $var wire 1 |! out [6] $end
 $var wire 1 }! out [5] $end
@@ -420,14 +420,14 @@ $var wire 1 %" cout $end
 $upscope $end
 
 $scope module comp2s_Module $end
-$var wire 1 S op1 [7] $end
-$var wire 1 T op1 [6] $end
-$var wire 1 U op1 [5] $end
-$var wire 1 V op1 [4] $end
-$var wire 1 W op1 [3] $end
-$var wire 1 X op1 [2] $end
-$var wire 1 Y op1 [1] $end
-$var wire 1 Z op1 [0] $end
+$var wire 1 K op1 [7] $end
+$var wire 1 L op1 [6] $end
+$var wire 1 M op1 [5] $end
+$var wire 1 N op1 [4] $end
+$var wire 1 O op1 [3] $end
+$var wire 1 P op1 [2] $end
+$var wire 1 Q op1 [1] $end
+$var wire 1 R op1 [0] $end
 $var wire 1 &" out [7] $end
 $var wire 1 '" out [6] $end
 $var wire 1 (" out [5] $end
@@ -830,9 +830,9 @@ b1 /"
 13
 12
 01
-00
+10
 0/
-1.
+0.
 0-
 b10 1"
 0$!
@@ -844,15 +844,15 @@ b10 1"
 1#
 1-!
 1/!
-b1000111 `!
+b10111 `!
 1B
 1A
 1@
-1<
+1>
 1,
 1+
 1*
-1&
+1(
 #20
 0!
 09
@@ -860,7 +860,7 @@ b1000111 `!
 1!
 19
 b1 2"
-b1000111 6"
+b10111 6"
 b10 /"
 05!
 14!
@@ -868,24 +868,25 @@ b10 /"
 1a
 1`
 0_
-0^
+1^
 0]
-1\
+0\
 0[
 1j
 0E!
-02!
+12!
 01!
-10!
-b10000 0"
+00!
+0J
+b10 0"
 b100 1"
 0#!
 1"!
 0,!
-0+!
+1+!
 0*!
 0)!
-1(!
+0(!
 0'!
 0&!
 0%!
@@ -911,7 +912,7 @@ b11 /"
 17
 16
 02
-0.
+00
 b1000 1"
 0"!
 1!!
@@ -923,11 +924,11 @@ b0 `!
 0B
 0A
 0@
-0<
+0>
 0,
 0+
 0*
-0&
+0(
 #40
 0!
 09
@@ -968,9 +969,33 @@ b101 /"
 0M
 0L
 0K
-1J
+0r!
+1%"
+1p!
+1o!
+0n!
+0m!
+0l!
+0k!
+0j!
+1$"
+0#"
+0""
+0!"
+0~!
+0}!
+0|!
+1-"
+0,"
+1+"
+1*"
+1)"
+1("
+1'"
+1&"
+0k
 1I
-0H
+1H
 0G
 0F
 0E
@@ -979,7 +1004,7 @@ b101 /"
 b100000 1"
 0~
 1}
-1A!
+1>!
 1x
 0o
 0#
@@ -998,63 +1023,39 @@ b0 `!
 #65
 1!
 19
-b11 5"
+b110 5"
 b0 /"
 05!
 03!
-1Z
+0Z
 1Y
-0X
+1X
 0W
 0V
 0U
 0T
 0S
-0r!
-1%"
-0h!
-1g!
-1f!
-0e!
+1h!
+0g!
+0f!
+1e!
 0d!
 0c!
 0b!
 0a!
 0i!
-1p!
-1o!
-0n!
-0m!
-0l!
-0k!
-0j!
-1z!
+0z!
 1y!
-1x!
+0x!
 1w!
 1v!
 1u!
 1t!
 1s!
-1$"
-0#"
-0""
-0!"
-0~!
-0}!
-0|!
-1-"
-0,"
-1+"
-1*"
-1)"
-1("
-1'"
-1&"
 b1 1"
 1$!
 0}
-0A!
+0>!
 0x
 1u
 19!
@@ -1077,7 +1078,10 @@ b1 /"
 07
 06
 04
+03
 12
+10
+1.
 b10 1"
 0$!
 1#!
@@ -1088,13 +1092,15 @@ b10 1"
 1#
 1-!
 1/!
-b110 `!
+b1010100 `!
 0B
-1A
 1@
+1>
+1<
 0,
-1+
 1*
+1(
+1&
 #80
 0!
 09
@@ -1102,24 +1108,22 @@ b110 `!
 1!
 19
 b10 2"
-b110 6"
+b1010100 6"
 b10 /"
 05!
 14!
 0b
-0\
+0a
+1\
 0j
 1i
-00!
-0k
-0J
-1H
-b1 0"
+10!
+b100000 0"
 b100 1"
 0#!
 1"!
-1,!
-0(!
+0+!
+1'!
 1u
 17!
 0l
@@ -1132,16 +1136,16 @@ b100 1"
 #95
 1!
 19
-b110 3"
+b100 3"
 b11 /"
 15!
 0f
-1e
 1d
 08
-17
 16
 02
+00
+0.
 b1000 1"
 0"!
 1!!
@@ -1150,10 +1154,12 @@ b1000 1"
 0-!
 0/!
 b0 `!
-0A
 0@
-0+
+0>
+0<
 0*
+0(
+0&
 #100
 0!
 09
@@ -1167,54 +1173,50 @@ b100 /"
 b10000 1"
 0!!
 1~
-1o
-1#
+1B!
+1$
+1;!
+16!
 1-!
-1.!
-1/!
-b10 `!
+b110 `!
 1A
+1@
 1+
+1*
 #110
 0!
 09
 #115
 1!
 19
-b10 4"
-b101 /"
-15!
-0R
-1h!
-0g!
-0z!
-1J
-0I
-b100000 1"
+b0 /"
+13
+12
+03!
+b1 1"
+1$!
 0~
-1}
-1=!
-1x
-0o
-0#
-16!
+0B!
+0$
+0;!
+1u
+19!
+06!
 0-!
-0.!
-0/!
-b0 `!
-0A
-0+
+1.!
+b10 `!
+0@
+0*
 #120
 0!
 09
 #125
 1!
 19
-b101 5"
-b0 /"
-05!
-03!
-0Y
-1X
-1g!
-0o!
+b10 3"
+b1 /"
+15!
+1e
+0d
+17
+06
