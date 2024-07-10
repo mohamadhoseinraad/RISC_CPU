@@ -31,7 +31,14 @@ module CPU_tb;
     initial
     begin
         
-        $readmemb("memoryLoadAdd.list", memory);
+         memory[0] = 8'b01000111;
+         memory[1] = 8'b00000110;
+         memory[2] = 8'b01010100;
+         memory[3] = 8'b00000000;
+         memory[4] = 8'b00000000;
+         memory[5] = 8'b00000000;
+         memory[7] = 8'b00000011;
+         memory[6] = 8'b00000010;
         
         $dumpvars(0, CPU_tb);
         clr = 1;

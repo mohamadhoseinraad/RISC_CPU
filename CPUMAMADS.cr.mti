@@ -96,13 +96,6 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	MY_COMP2S
 
-} {} {}} //Mac/Home/Desktop/CPUMAMADS/ALU.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/ALU.v
-Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
--- Compiling module ALU
-
-Top level modules:
-	ALU
-
 } {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_DIV2.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_DIV2.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module MY_DIV2
