@@ -103,6 +103,13 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	MY_XNOR
 
+} {} {}} //Mac/Home/Desktop/CPUMAMADS/test_CPU_XNOR.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/test_CPU_XNOR.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module CPU_tb_xnor
+
+Top level modules:
+	CPU_tb_xnor
+
 } {} {}} //Mac/Home/Desktop/CPUMAMADS/MY_ROUND.v {1 {vlog -work work -vopt -stats=none //Mac/Home/Desktop/CPUMAMADS/MY_ROUND.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module RoundUpPowerOf2

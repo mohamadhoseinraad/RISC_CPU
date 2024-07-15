@@ -37,7 +37,7 @@ module CPU_tb_round;
          memory[3] = 8'b00000000;
          memory[4] = 8'b00000000;
          memory[5] = 8'b00000000;
-         memory[7] = 8'b00000110;
+         memory[7] = 8'b00011100;
          memory[6] = 8'b00000010;
         
         $dumpvars(0, CPU_tb_round);
