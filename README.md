@@ -1,4 +1,8 @@
 ## RISC CPU in Verilog with 8 commands and 16*8 memory
+KNTU University 
+Students : Mohammadhosein Shabaniraad , Mohammadreza Abedin 
+Teacher : Dr.Atena Abdi
+spring 2024 , Computer architecture lecture
 
 ## commands :
 # ADD 
@@ -55,4 +59,4 @@ M[AR] <- Round of M[AR]
 # ROUND D(7) T(7)
 
 ## Micro instructions describe in pdf in rep
-[a link]([https://github.com/user/repo/blob/branch/other_file.md](https://github.com/mohamadhoseinraad/CPUMAMADS/blob/master/micro%20instructions.pdf)) 
+[a link] (https://github.com/mohamadhoseinraad/CPUMAMADS/blob/master/micro%20instructions.pdf)
