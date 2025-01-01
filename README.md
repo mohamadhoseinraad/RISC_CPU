@@ -1,7 +1,7 @@
 ## RISC CPU in Verilog with 8 commands and 16*8 memory
 # KNTU University 
 Students : [Mohammadhosein Shabaniraad](https://github.com/mohamadhoseinraad) [Mohammadreza Abedin](https://github.com/MrAbedam)
-Teacher : [Dr.Atena Abdi](https://wp.kntu.ac.ir/a.abdi/)
+Instructor : [Dr.Atena Abdi](https://wp.kntu.ac.ir/a.abdi/)
 # spring 2024 , Computer architecture lecture
 
 ## commands :
